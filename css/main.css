@@ -51,7 +51,6 @@
 .account {
     display: inline-block;
     margin-left: 450px;
-    background-color: rgb(139, 7, 7);
     color: white;
     cursor: pointer;
 }
@@ -61,44 +60,153 @@
     top: -14px;
 }
 
+#carrinho {
+    margin-right: 11px;
+
+}
+
+#conta {
+    margin-left: 10px;
+
+}
+
 body {
     size: 100%;
 }
+
+#k {
+    position: relative;
+    display: inline-flex;
+    top: 50px;
+    left: 40px;
+}
+
+.minik {
+    display: flex;
+    position: relative;
+    top: 81px;
+    left: 103px;
+}
+
 
 .texto {
     margin-left: 53%;
     margin-right: 12%;
     margin-top: 5%;
+    position: relative;
+    bottom: 400px;
 }
 
 .texto h2 {
-    height: 40px;
-    font-size: 20px;
+    height: 65px;
+    font-size: 27px;
 }
 
 .texto p {
-    font-size: 15px;
+    font-size: 18px;
 }
 
-.ficha {
-    background-color: black;
-    margin-bottom: 23px;
-    margin-top: 161px;
-    cursor: pointer;
-    border: none;
+
+.minik div {
+    margin-left: 10px;
 }
+
+.botoes {
+    position: relative;
+    left: 731px;
+    bottom: 302px;
+}
+
+.comprar {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.comprar:hover,
+.comprar:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.addcart:active {
+    opacity: .5;
+}
+
+.addcart {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin: 30px;
+    position: relative;
+
+}
+
+.addcart:hover,
+.addcart:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.addcart:active {
+    opacity: .5;
+}
+
+
 
 .fichaava,
 .fichatec {
     background-color: black;
     width: 100%;
-    height: 23px;
+    height: 30px;
     margin-top: 2px;
     color: white;
     margin-bottom: 5px;
     cursor: pointer;
     border: none;
     overflow: hidden;
+    position: relative;
+    bottom: 235px;
 }
 
 .left {
@@ -123,8 +231,11 @@ body {
 
 }
 
-.texto_interno {
+.texto_ava {
     display: none;
+    background: black;
+    position: relative;
+
 }
 
 .texto_interno p {

@@ -2,14 +2,30 @@ const page = document.body.style;
 page.background = "#2E2D2D"; //Background escuro;
 page.color = 'white'; //Letra branca;
 
-var button = document.body.getElementsByClassName('fichaava fichatec');
-let info = document.getElementsByClassName("texto_interno");
-button.addEventListener("click", function () {
-    if (info.classList.contains("texto_interno")) {
-        info.classList.remove("texto_interno");
-        btn.innerHTML = "Hide Information";
+let buttonAvaliacoes = document.getElementsByClassName('fichava')[0];
+let info_ava = document.getElementsByClassName('texto_ava')[0];
+buttonAvaliacoes.addEventListener('click', function () {
+    if (info_ava.classList.contains('texto_ava')) {
+        info_ava.ClassList.remove('texto_ava');
+        info_ava.style.display = "none";
+        info_ava.style.display = "block";
     } else {
-        info.classList.add("texto_interno");
-        btn.innerHTML = "Show Information";
+        info_ava.classList.add('texto_ava');
     }
+});
+
+$('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true
 });
