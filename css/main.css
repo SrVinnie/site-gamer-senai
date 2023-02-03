@@ -1,7 +1,7 @@
 .banner-principal {
     width: 100%;
     height: 60px !important;
-    background: #222020;
+    background: #252222;
     border-bottom: solid 1px #131212;
     display: inline-table;
     position: relative;
@@ -51,13 +51,15 @@
 .account {
     display: inline-block;
     margin-left: 450px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
 .account strong {
     position: relative;
     top: -14px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #carrinho {
@@ -74,18 +76,35 @@ body {
     size: 100%;
 }
 
-#k {
+.sld-wrp {
+    width: 556px;
+    margin: 0 auto;
+    margin-top: 50px;
     position: relative;
-    display: inline-flex;
-    top: 50px;
-    left: 40px;
+    right: 335px;
 }
 
-.minik {
-    display: flex;
+.slider-for {
+    width: 800px;
+    margin: 0 auto;
     position: relative;
-    top: 81px;
-    left: 103px;
+}
+
+.slide-container {
+    height: 100%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.slide-btn {
+    text-align: left;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.slider-nav {
+    margin: 10px;
 }
 
 
@@ -94,7 +113,7 @@ body {
     margin-right: 12%;
     margin-top: 5%;
     position: relative;
-    bottom: 400px;
+    bottom: 522px;
 }
 
 .texto h2 {
@@ -109,12 +128,13 @@ body {
 
 .minik div {
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .botoes {
     position: relative;
     left: 731px;
-    bottom: 302px;
+    bottom: 463px;
 }
 
 .comprar {
@@ -231,12 +251,6 @@ body {
 
 }
 
-.texto_ava {
-    display: none;
-    background: black;
-    position: relative;
-
-}
 
 .texto_interno p {
     height: 200px;
