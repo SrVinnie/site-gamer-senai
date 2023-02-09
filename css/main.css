@@ -5,14 +5,18 @@
     border-bottom: solid 1px #131212;
     display: inline-table;
     position: relative;
+    cursor: default !important;
 }
 
 .logo {
     display: inline-block;
     margin-top: 1px;
-    cursor: pointer;
+    cursor: default;
     position: relative;
     top: 5px;
+}
+.logo img{
+    cursor: pointer;
 }
 
 .custom-search {
@@ -21,7 +25,8 @@
     margin-left: 80px;
     position: relative;
     left: 14px;
-    top: -18px
+    top: -18px;
+    cursor: default;
 }
 
 .custom-search-input {
@@ -35,7 +40,6 @@
 }
 
 .custom-search-botton {
-    cursor: pointer;
     position: absolute;
     right: 3px;
     top: 3px;
@@ -52,7 +56,6 @@
     display: inline-block;
     margin-left: 450px;
     color: rgb(0, 0, 0);
-    cursor: pointer;
 }
 
 .account strong {
@@ -60,6 +63,7 @@
     top: -14px;
     font-size: 15px;
     font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
 }
 
 #carrinho {
